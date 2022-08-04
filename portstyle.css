@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+h1 {
+    padding-top: 1%;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #b2f7ef;
+
+
+}
+
+nav {
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-color: #b2f7ef;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+    border: solid #b2f7ef 10px;
+    background-color: #b5c6e0;
+    padding: 1% 1% 1% 1%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    border-style: solid;
+}
+
+.intro {
+    text-align: center;
+}
+
+.introtext {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.journey {
+    text-align: center;
+}
+
+.jtext {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.Goals {
+    text-align: center;
+}
+
+.goaltext {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+footer {
+    background-color: #b2f7ef;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: large;
+}
